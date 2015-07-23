@@ -1,0 +1,1 @@
+cmd_Debug/obj.target/addon.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=addon.node -o Debug/obj.target/addon.node -Wl,--start-group Debug/obj.target/addon/addon.o -Wl,--end-group -lopencv_core -lopencv_imgproc -lopencv_calib3d -lopencv_features2d -lopencv_objdetect -lopencv_contrib -lopencv_flann -lopencv_ml -lopencv_legacy
